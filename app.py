@@ -11,8 +11,8 @@ st.set_page_config(page_title="MétalSuivi SaaS Enterprise", page_icon="🏗️"
 
 # --- CONFIGURATION API PAYTECH ---
 # Note : Assurez-vous que vos clés sont dans les secrets Streamlit
-PAYTECH_API_KEY = st.secrets.get("PAYTECH_API_KEY", "votre_cle_api")
-PAYTECH_SECRET_KEY = st.secrets.get("PAYTECH_API_SECRET", "votre_cle_secret")
+PAYTECH_API_KEY = st.secrets.get("PAYTECH_API_KEY", "3beb221105ebef88de7f6d798a845c6863a07fa02ffabc7b2cd9741391309b84")
+PAYTECH_SECRET_KEY = st.secrets.get("PAYTECH_API_SECRET", "d70dbc4d7a94beaebdc9eea00f3964e298017727052b7a7e2bbb42cdff00914c")
 PAYTECH_URL = "https://paytech.sn/api/payment/request-payment" 
 BASE_URL = "https://zunongroguhe-bit-metalsuivi-saas-app-hc0xsr.streamlit.app/"
 
